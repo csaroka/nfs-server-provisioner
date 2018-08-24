@@ -26,7 +26,9 @@ or
 `$ helm init --service-account tiller`
 
 ## Edit the chart values.yaml (custom override)
-Note: Review the size of the volume and edit
+Edited defaults to add persistance with a vsphere-volume, defined in the default storage class.
+
+Note: Rewview sizes for both values and pvc before deploying.
 
 ## Install the NFS Server Provisioner Chart
 
