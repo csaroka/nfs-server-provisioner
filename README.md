@@ -64,6 +64,8 @@ Current corpweb-nfs-pvc.yaml - 10Gi
 
 `$ ls /usr/share/nginx/html/`
 
+`$ exit`
+
 
 ## Scale out Deployment
 
