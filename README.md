@@ -48,10 +48,14 @@ Note: Review the size of the volume and edit
 `$ kubectl apply -f corpweb-app.yaml`
 
 ## Copy Web Content to NFS volume
+
 `$ kubectl get pods`
+
 `$ kubectl cp index.html <podname>:/usr/share/nginx/html/`
-`$ kubectl exec -it <podname> /bin/bash`
-`<pod>$ ls /usr/share/nginx/html/`
+
+`$ kubectl exec -it <podname> /bin/bash 
+
+'$<pod>$ ls /usr/share/nginx/html/`
 
 
 ## Scale out Deployment
