@@ -1,4 +1,4 @@
-# nfs-server-provisioner
+# Example NFS Server Provisioner and RWM PVC for Scaling Web Frontends
 
 ## Enter kube-system namespace
 `$ kubectl config set-context $(kubectl config current-context) --namespace=kube-system`
