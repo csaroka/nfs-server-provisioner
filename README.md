@@ -55,12 +55,16 @@ Note: Review the size of the volume and edit
 
 `$ kubectl exec -it <podname> /bin/bash 
 
-'$<pod>$ ls /usr/share/nginx/html/`
+'$ <pod> ls /usr/share/nginx/html/`
 
 
 ## Scale out Deployment
 
 `$ kubectl scale --replicas=3 deploy/corpweb-deploy`
+
+`$ kubectl exec -it <2nd podname> /bin/bash 
+
+'$ <2nd pod> ls /usr/share/nginx/html/`
 
 
 ## Get Ingress Path
