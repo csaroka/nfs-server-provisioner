@@ -58,7 +58,7 @@ Current corpweb-nfs-pvc.yaml - 10Gi
 
 `$ kubectl get pods`
 
-`$ kubectl cp index.html <podname>:/usr/share/nginx/html/`
+`$ kubectl cp html <podname>:/usr/share/nginx/`
 
 `$ kubectl exec -it <podname> /bin/bash`
 
