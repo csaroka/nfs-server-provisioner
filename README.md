@@ -83,9 +83,14 @@ Pick one of the new pods to verify the webcontent is available to it through the
 
 
 ## Get Ingress Path
-
 `$ kubectl get ingress`
 
 ## Test Browser Access
 `Example: http://corpweb.k8s01-app.lab.local`
+
+## Replace image source
+`kubectl cp htmlv2/vmware_luv.jpg <2nd podname>:/usr/share/nginx/html`
+
+## Refresh the browser to view the updated image
+
 
