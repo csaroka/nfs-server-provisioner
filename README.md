@@ -43,11 +43,11 @@ Note: Review the size of the volume and edit
 
 `$ kubectl apply -f corpweb-nfs-pvc.yaml`
 
-##. Apply Deployment, Service, and Ingress (Note: Will fail until PVC contains data)
+## Apply Deployment, Service, and Ingress (Note: Will fail until PVC contains data)
 
 `$ kubectl apply -f corpweb-app.yaml`
 
-##. Copy Web Content to NFS volume
+## Copy Web Content to NFS volume
 `$ kubectl get pods`
 `$ kubectl cp index.html <podname>:/usr/share/nginx/html/`
 `$ kubectl exec -it <podname> /bin/bash`
