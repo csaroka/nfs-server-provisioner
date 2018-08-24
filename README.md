@@ -28,7 +28,7 @@ or
 ## Edit the chart values.yaml (custom override)
 Edited defaults to add persistance with a vsphere-volume, defined in the default storage class.
 
-Note: Rewvie sizes for both values.yml and corpweb-nfs-pvc.yaml before deploying.
+Note: Review sizes for both values.yml and corpweb-nfs-pvc.yaml before deploying.
 
 Current values.yml - 120Gi
 
