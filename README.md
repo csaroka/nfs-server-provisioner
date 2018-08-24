@@ -77,7 +77,9 @@ Pick one of the new pods to verify the webcontent is available to it through the
 
 `$ kubectl exec -it <2nd podname> /bin/bash`
 
-`$ <2nd pod> ls /usr/share/nginx/html/`
+`$ ls /usr/share/nginx/html/`
+
+`$ exit`
 
 
 ## Get Ingress Path
