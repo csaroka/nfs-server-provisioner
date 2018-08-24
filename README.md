@@ -28,7 +28,11 @@ or
 ## Edit the chart values.yaml (custom override)
 Edited defaults to add persistance with a vsphere-volume, defined in the default storage class.
 
-Note: Rewview sizes for both values and pvc before deploying.
+Note: Rewvie sizes for both values.yml and corpweb-nfs-pvc.yaml before deploying.
+
+Current values.yml - 120Gi
+
+Current corpweb-nfs-pvc.yaml - 10Gi
 
 ## Install the NFS Server Provisioner Chart
 
@@ -55,18 +59,18 @@ Note: Rewview sizes for both values and pvc before deploying.
 
 `$ kubectl cp index.html <podname>:/usr/share/nginx/html/`
 
-`$ kubectl exec -it <podname> /bin/bash 
+`$ kubectl exec -it <podname> /bin/bash`
 
-'$ <pod> ls /usr/share/nginx/html/`
+`$ <pod> ls /usr/share/nginx/html/`
 
 
 ## Scale out Deployment
 
 `$ kubectl scale --replicas=3 deploy/corpweb-deploy`
 
-`$ kubectl exec -it <2nd podname> /bin/bash 
+`$ kubectl exec -it <2nd podname> /bin/bash`
 
-'$ <2nd pod> ls /usr/share/nginx/html/`
+`$ <2nd pod> ls /usr/share/nginx/html/`
 
 
 ## Get Ingress Path
