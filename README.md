@@ -41,11 +41,11 @@ Current corpweb-nfs-pvc.yaml - 10Gi
 
 ## Create the Namespace
 
-'$ kubectl create ns corp-lab'
+`$ kubectl create ns corp-lab`
 
-'$ kubectl config set-context'
+`$ kubectl config set-context`
 
-'$(kubectl config current-context) --namespace=corp-lab'
+`$(kubectl config current-context) --namespace=corp-lab`
 
 
 ## Create Persistent Volume Claim
