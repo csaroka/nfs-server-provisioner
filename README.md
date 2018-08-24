@@ -62,7 +62,7 @@ Current corpweb-nfs-pvc.yaml - 10Gi
 
 `$ kubectl exec -it <podname> /bin/bash`
 
-`$ <pod> ls /usr/share/nginx/html/`
+`$ ls /usr/share/nginx/html/`
 
 
 ## Scale out Deployment
