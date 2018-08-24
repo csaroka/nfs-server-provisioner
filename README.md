@@ -61,7 +61,7 @@ Note: Review the size of the volume and edit
 
 ## Get Ingress Path
 
-`$kubectl get ingress`
+`$ kubectl get ingress`
 
 ## Test Browser Access
 `Example: http://corpweb.k8s01-app.lab.local`
